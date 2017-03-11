@@ -1,0 +1,69 @@
+html, body{
+	font-family: 'Playfair Display', serif;
+	/*min-width: 100%;
+	height: 100%;*/
+	background: #f2f0f2;
+	display: inline-block
+}
+
+form{ margin: 20px;}
+
+input{ width: 1000px;
+		height: 124px;
+		padding: 0;
+		border: 0;
+}
+
+button{
+	position: relative;
+	top: 54px;
+	padding: 0;
+	border: 0;
+}
+
+p{ padding-left: 40px;
+	font-weight: bold;
+	color: grey;
+ }
+
+/*::-webkit-input-placeholder {color:#c0392b;*/
+/*text-decoration:overline;
+letter-spacing:50px; color:#999;}*/
+
+div{box-sizing: border-box;
+	font-size: 100%;
+}
+
+ul{ list-style: none;}
+
+section{ display: inline-block;}
+
+.section-one{ width: 33%;}
+
+.section-two{ width: 33%; }
+
+.section-three{ width: 33%; }
+
+li{ background: rgba(128,128,128,0.21);
+	border: 1px solid white;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+span{ position: absolute;
+		margin-top: 15px;
+		padding-left: 15px;
+ }
+
+li:hover{ opacity: 0.6; }
+
+a{ text-decoration: none;
+	color: grey; 
+}
+
+a:active{color:red;}
+
+.friends{
+	border: 1px solid white;
+	border-radius: 30px;
+}
